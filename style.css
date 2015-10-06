@@ -1,17 +1,16 @@
- body {
- 	background-image: desert-light.jpg;
- }
-
  h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
+  font-weight: bolder;
   text-shadow: 4px 4px 4px #aaa;
 }
  p  {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
 	font-size: 22px;
 }
 li	{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
 	font-size: 22px;
 }
