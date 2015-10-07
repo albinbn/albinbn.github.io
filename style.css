@@ -1,9 +1,14 @@
+ body	{
+ 	background-color: #333333
+ }
  h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  font-weight: bolder;
+  font-size: 64px;
+  font-weight: 900;
   text-align: center;
+  font-style: oblique;
 }
+
  p  {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
