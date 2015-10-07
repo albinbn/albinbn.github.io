@@ -20,3 +20,10 @@ li	{
 	font-weight: lighter;
 	font-size: 22px;
 }
+#area-chart,
+#line-chart,
+#bar-chart,
+#stacked,
+#pie-chart{
+  min-height: 250px;
+}
