@@ -3,11 +3,13 @@
   font-size: 48px;
   font-weight: bolder;
   text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
 }
  p  {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 	font-size: 22px;
+	text-align: center;
 }
 li	{
 	font-family: 'Montserrat', sans-serif;
