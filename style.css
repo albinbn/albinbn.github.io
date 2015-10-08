@@ -9,8 +9,8 @@ h1		{
   font-style: oblique;
   color: #ffffff;
   border: 20px solid #ffffff;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 
@@ -21,10 +21,10 @@ h1		{
 	text-align: center;
 	color: #ffffff;
 	padding-top: 30px;
-	margin-bottom: 70px;
+	margin-bottom: 150px;
 	padding-bottom: 70px;
 }
 div {
-	margin-bottom: 250px;
+	margin-bottom: 550px;
 }
 
