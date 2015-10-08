@@ -3,10 +3,11 @@ body	{
  h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 64px;
-  font-weight: 900;
+  font-weight: 1500;
   text-align: center;
   font-style: oblique;
-  text-decoration-color: white;
+  color: white;
+  padding-top: 40px;
 }
 
  p  {
@@ -14,6 +15,7 @@ body	{
 	font-weight: lighter;
 	font-size: 22px;
 	text-align: center;
+	color: white;
 }
 li	{
 	font-family: 'Montserrat', sans-serif;
