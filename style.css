@@ -3,15 +3,12 @@ body	{
 	 }
 h1		{
   font-family: 'Montserrat', sans-serif;
-  font-size: 64px;
+  font-size: 90px;
   font-weight: 900;
   text-align: center;
   font-style: oblique;
   color: #ffffff;
   padding-top: 40px;
-}
-.jumbotron h1 {
-  padding: 0px;
   border: 6px solid #ffffff;
 }
 
@@ -22,9 +19,11 @@ h1		{
 	font-size: 22px;
 	text-align: center;
 	color: #ffffff;
+	padding-top: 30px;
 }
 li	{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 	font-size: 22px;
 }
+
