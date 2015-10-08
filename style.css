@@ -1,5 +1,5 @@
  body	{
- 	background-color: #333333
+ 	background-image: albinsbakgrundhej.jpg;
  }
  h1 {
   font-family: 'Montserrat', sans-serif;
@@ -19,11 +19,4 @@ li	{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
 	font-size: 22px;
-}
-#area-chart,
-#line-chart,
-#bar-chart,
-#stacked,
-#pie-chart{
-  min-height: 250px;
 }
