@@ -10,6 +10,7 @@ h1		{
   color: #ffffff;
   padding-top: 40px;
   border: 6px solid #ffffff;
+  margin-bottom: 30px;
 }
 
 
@@ -20,6 +21,7 @@ h1		{
 	text-align: center;
 	color: #ffffff;
 	padding-top: 30px;
+	margin-bottom: 30px;
 }
 li	{
 	font-family: 'Montserrat', sans-serif;
