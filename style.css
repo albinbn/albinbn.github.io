@@ -24,5 +24,15 @@ h1		{
 	margin-bottom: 700px;
 	padding-bottom: 70px;
 }
+li  {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 22px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 30px;
+	margin-bottom: 70px;
+	padding-bottom: 70px;
+}
 
 
