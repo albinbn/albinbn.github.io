@@ -1,5 +1,5 @@
  body	{
- 	background-image: albinsbakgrundhej.jpg;
+ 	background-image: url("albinsbakgrundhej.jpg");
  }
  h1 {
   font-family: 'Montserrat', sans-serif;
