@@ -1,6 +1,7 @@
 body	{
 	background-image: url("http://workingwoods.com/misc%20images/Gradient%20Background.jpg");
- h1 {
+	 }
+h1		{
   font-family: 'Montserrat', sans-serif;
   font-size: 64px;
   font-weight: 900;
@@ -9,6 +10,11 @@ body	{
   color: #ffffff;
   padding-top: 40px;
 }
+.jumbotron h1 {
+  padding: 0px;
+  border: 6px solid #ffffff;
+}
+
 
  p  {
 	font-family: 'Montserrat', sans-serif;
