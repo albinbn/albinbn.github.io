@@ -56,6 +56,12 @@ function initMap() {
     center: {lat: 59.332788 , lng: 18.064488 },
     mapTypeId: google.maps.MapTypeId.SATELLITE
   });
+function initialize () {
+    var mapOptions = {
+        maxZoom: 17,
+        minZoom: 12,
+        zoom: 12,
+    } 
 
   heatmap = new google.maps.visualization.HeatmapLayer({
     data: getPoints(),
