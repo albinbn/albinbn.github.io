@@ -54,7 +54,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
     center: {lat: 59.332788, lng: 18.064488 },
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.SATELLITE
   });
 
   heatmap = new google.maps.visualization.HeatmapLayer({
@@ -66,7 +66,11 @@ function initMap() {
 function toggleHeatmap() {
   heatmap.setMap(heatmap.getMap() ? null : map);
 }
-
+function initialize() {
+   var mapOptions = {
+      maxZoom:17,
+      minZoom:15,
+   }
 function changeGradient() {
   var gradient = [
     'rgba(0, 255, 255, 0)',
