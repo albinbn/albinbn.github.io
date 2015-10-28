@@ -1,4 +1,8 @@
-var myLatlng = new google.maps.LatLng(-34.397, 150.644);
+
+
+jQuery.parseJSON( jsonString );
+
+var myLatlng = new google.maps.LatLng(latitude, longitude);
 var mapOptions = {
   zoom: 8,
   center: myLatlng,
@@ -6,3 +10,4 @@ var mapOptions = {
 };
 var map = new google.maps.Map(document.getElementById("map"),
     mapOptions);
+
