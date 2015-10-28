@@ -18,6 +18,6 @@ var heatmapData = {
 var heatmap = new google.maps.visualization.HeatmapLayer({
   data: heatmapData
 
+
 <script type="text/javascript"
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbwcQXOrpxbUzDB1SlmJfT1K5mVKjei4&libraries=visualization&sensor=true_or_false">
-</script>
