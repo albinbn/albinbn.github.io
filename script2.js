@@ -28,24 +28,24 @@ var tip = d3.tip()
     return "<strong>Tillväxt:</strong> <span style='color:white'>" + d.frequency + "</span>";
   })
 
-var svg = d3.select("#graph2").append("svg")
+var svg1 = d3.select("#graph2").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-svg.call(tip);
+svg1.call(tip);
 
 d3.tsv("hata.tsv", type, function(error, data) {
   x.domain(data.map(function(d) { return d.letter; }));
   y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
 
-  svg.append("g")
+  svg1.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
-  svg.append("g")
+  svg1.append("g")
       .attr("class", "y axis")
       .call(yAxis)
     .append("text")
@@ -55,7 +55,7 @@ d3.tsv("hata.tsv", type, function(error, data) {
       .style("text-anchor", "start")
       .text("Tillväxt");
 
-  svg.selectAll(".bar")
+  svg1.selectAll(".bar")
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
