@@ -50,7 +50,10 @@ d3.tsv("hata.tsv", type, function(error, data) {
       .call(yAxis1)
     .append("text")
       .attr("transform", "rotate(0)")
-      .attr("y", 10)
+              .attr("y", -12)
+        .attr("x", 8)
+        .attr("font-size", 11)
+        .attr("font-family", "ROBOTO")
       .attr("dy", ".71em")
       .style("text-anchor", "start")
       .text("Tillväxt");
