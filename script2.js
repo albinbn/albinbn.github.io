@@ -16,7 +16,7 @@ var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom");
 
-var yAxis = d3.svg.axis()
+var yAxis1 = d3.svg.axis()
     .scale(y)
     .orient("left")
     .tickFormat(function(d) { return d + "%"; });
@@ -47,7 +47,7 @@ d3.tsv("hata.tsv", type, function(error, data) {
 
   svg1.append("g")
       .attr("class", "y axis")
-      .call(yAxis)
+      .call(yAxis1)
     .append("text")
       .attr("transform", "rotate(0)")
       .attr("y", 10)
