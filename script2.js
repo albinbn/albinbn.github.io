@@ -5,7 +5,7 @@ var margin = {top: 40, right: 20, bottom: 30, left: 60},
 var formatPercent = d3.format("%");
 
 var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .5);
+    .rangeRoundBands([0, width], .1);
 
 var y = d3.scale.linear()
     .range([height, 0]);
