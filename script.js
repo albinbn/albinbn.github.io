@@ -24,7 +24,7 @@ var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Population:</strong> <span style='color:white'>" + d.frequency + "</span>";
+    return "<strong>Invånare:</strong> <span style='color:white'>" + d.frequency + "</span>";
   })
 
 var svg = d3.select("#graph1").append("svg")

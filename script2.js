@@ -21,7 +21,7 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .tickFormat(function(d) { return d + "%"; });
 
-var tip = d3.tip()
+var tip1 = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
@@ -63,8 +63,8 @@ d3.tsv("hata.tsv", type, function(error, data) {
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.frequency); })
       .attr("height", function(d) { return height - y(d.frequency); })
-      .on('mouseover', tip.show)
-      .on('mouseout', tip.hide)
+      .on('mouseover', tip1.show)
+      .on('mouseout', tip1.hide)
 
 });
 
