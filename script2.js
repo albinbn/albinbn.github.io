@@ -34,7 +34,7 @@ var svg1 = d3.select("#graph2").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-svg1.call(tip);
+svg1.call(tip1);
 
 d3.tsv("hata.tsv", type, function(error, data) {
   x.domain(data.map(function(d) { return d.letter; }));
