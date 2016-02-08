@@ -12,11 +12,11 @@ var x = d3.scale.ordinal()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var xAxis = d3.svg1.axis()
+var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom");
 
-var yAxis = d3.svg1.axis()
+var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
     .tickFormat(function(d) { return d + "%"; });
