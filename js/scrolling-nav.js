@@ -24,6 +24,6 @@ $(function() {
 
 $.get("http://ipinfo.io", function (response) {
     $("#ip").html("IP: " + response.ip);
-    $("#address").html("Location: " + response.region + ", " + response.region);
+    $("#address").html("Location: " + response.region);
     $("#details").html(JSON.stringify(response, null, 4));
 }, "jsonp");
