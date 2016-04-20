@@ -1,0 +1,229 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@font-face {
+    font-family: 'gotham-book';
+    src: url(../fonts/Gotham-Book.otf);
+    
+}
+
+@font-face {
+    font-family: 'gotham-BlackItalic');
+    src: url(../fonts/Gotham-BlackItalic.otf);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+#navbar1 { 
+    font-family: 'gotham-BlackItalic';
+    font-size: 20px;
+}
+
+#scrollbar {
+    font-family: 'gotham-BlackItalic';
+    font-size: 20px;
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+    font-family: 'gotham-BlackItalic';
+}
+
+.about-section {
+    height: auto;
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    font-family: 'gotham-book';
+}
+
+h1 {
+    font-family: 'gotham-BlackItalic';
+}
+
+p {
+    font-family: 'gotham-book';
+}
+
+#me {
+    text-align: left;
+}
+
+#ppick {
+    max-width: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#me2 {
+    text-align: left;
+}
+
+.services-section {
+    height: auto;
+    text-align: center;
+    background: #fff;
+}
+
+/*
+#shap:hover {
+
+        background-color: fuchsia;
+        opacity: 0.9;
+        filter:alpha(opacity=50); 
+}
+
+#zoe:hover {
+
+        background-color: fuchsia;
+        opacity: 0.9;
+        filter:alpha(opacity=50); 
+}
+
+#hels:hover {
+
+        background-color: fuchsia;
+        opacity: 0.9;
+        filter:alpha(opacity=50); 
+}
+
+#fil:hover {
+
+        background-color: fuchsia;
+        opacity: 0.9;
+        filter:alpha(opacity=50); 
+}
+
+#wor:hover {
+
+        background-color: fuchsia;
+        opacity: 0.9;
+        filter:alpha(opacity=50); 
+}
+*/
+
+
+hr {
+height: 10px;
+background-color: #333333;
+color:#333333;
+}
+
+
+#shap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#zoe {
+    padding-bottom: 30px;
+}
+
+#hel {
+    padding-bottom: 30px;
+}
+
+#fil {
+    padding-bottom: 30px;
+}
+
+
+/*.container {
+    padding: 50px;
+    text-align: left;
+    position: relative;
+}
+*/
+.image {
+    max-width: 400px;
+    max-height: 250px;
+    width: 100%;   
+    padding: 30px;
+}
+
+.simage{
+    max-width: 400px;
+    max-height: 250px;
+    width: 100%;    
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.zimage{
+    max-width: 400px;
+    max-height: 250px;
+    width: 100%;    
+    padding-top: 50px;
+}
+
+#pj {
+    text-align: left;
+}
+
+.contact-section {
+    height: auto;
+    max-height: 100%;
+    min-height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+#maila{
+    max-width: 170px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#linkdin{
+    max-width: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h3 {
+    padding-top: 20px;
+    font-family: 'gotham-BlackItalic';
+}
+
+#psst {
+    padding-top: 230px;
+}
