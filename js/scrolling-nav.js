@@ -18,6 +18,12 @@ $(function() {
     });
 });
 
-$.getJSON('http://ipinfo.io', function(data){
+/*$.getJSON('http://ipinfo.io', function(data){
   console.log(data)
-})
+})*/
+
+$.get("http://ipinfo.io", function (response) {
+    $("#ip").html("IP: " + response.ip);
+    $("#address").html("Location: " + response.region + ", " + response.region);
+    $("#details").html(JSON.stringify(response, null, 4));
+}, "jsonp");
