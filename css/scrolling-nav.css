@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'gotham-BlackItalic');
+    font-family: 'gotham-Blit');
     src: url(../fonts/Gotham-BlackItalic.otf);
 }
 
@@ -42,12 +42,12 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 #navbar1 { 
-    font-family: 'gotham-BlackItalic';
+    font-family: 'gotham-Blit';
     font-size: 20px;
 }
 
 #scrollbar {
-    font-family: 'gotham-BlackItalic';
+    font-family: 'gotham-Blit';
     font-size: 20px;
 }
 
@@ -57,7 +57,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    font-family: 'gotham-BlackItalic';
+    font-family: 'gotham-Blit';
 }
 
 .about-section {
@@ -70,7 +70,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 h1 {
-    font-family: 'gotham-BlackItalic';
+    font-family: 'gotham-Blit';
 }
 
 p {
@@ -221,7 +221,7 @@ color:#333333;
 
 h3 {
     padding-top: 20px;
-    font-family: 'gotham-BlackItalic';
+    font-family: 'gotham-Blit';
 }
 
 #psst {
