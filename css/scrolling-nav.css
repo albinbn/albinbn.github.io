@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'gotham-Blit');
-    src: url(../fonts/Gotham-BlackItalic.otf);
+    src: url('../fonts/Gotham-BlackItalic.otf');
 }
 
 body {
