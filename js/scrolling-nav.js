@@ -24,14 +24,7 @@ $(function() {
 
 $.get("http://ipinfo.io", function (response) {
     $("#ip").html("IP: " + response.ip);
-    $("#address").html("Location: " + response.region);
+    $("#address").html(response.region);
     $("#details").html(JSON.stringify(response, null, 4));
 }, "jsonp");
 
-var OSName="Unknown OS";
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="Mac OS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
-
-document.write('Your OS: '+OSName);
