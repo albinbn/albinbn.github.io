@@ -53,13 +53,14 @@ of those sections to manage the look and feel of the site. */
 
 
 .intro-section {
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
     font-family: 'gotham-Blit';
     font-size: 30px;
-    position: relative
+    position: relative;
 }
 
 #textintro {
@@ -67,24 +68,17 @@ of those sections to manage the look and feel of the site. */
 }
 
 #region {
-    padding-top: 100px;
     font-family: 'gotham-Blit';
 }
 
 #ip {
-    position: relative;
     font-size: 10px;
-    vertical-align: bottom;
 }
 
-/*#ip span {
-    position: absolute;
-    bottom: 0;
+.h2 {
+    font-family: 'gotham-Blit';
+    font-size: 10px;
 }
-
-/*#ip:hover {
-    opacity: 1;
-}*/
 
 .about-section {
     height: auto;
@@ -125,7 +119,7 @@ p {
     background: #fff;
 }
 
-/*
+
 #shap:hover {
 
         background-color: fuchsia;
@@ -160,7 +154,7 @@ p {
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
-*/
+
 
 
 hr {
@@ -223,9 +217,8 @@ color:#333333;
 
 .contact-section {
     height: auto;
-    max-height: 100%;
     min-height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
