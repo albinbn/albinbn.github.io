@@ -21,6 +21,6 @@ $(function() {
 $.getJSON('http://ipinfo.io', function (data) {
   console.log(data);
   console.log("YO");
-   $("#ip").append(data.ip); 
-    $("#region").append(data.region);
+   $("#ip").append("Some people wants to hide this but it's pretty easy to get... " + data.ip + " Yeah, that's your IP."); 
+    $("#region").append("How's the weather in " + data.region + "?");
 })

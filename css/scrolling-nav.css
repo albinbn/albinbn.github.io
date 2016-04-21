@@ -58,6 +58,20 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
     font-family: 'gotham-Blit';
+    font-size: 30px;
+}
+
+.region {
+    padding-top: 50px;
+    font-family: 'gotham-Blit';
+}
+
+#ip {
+    opacity: 0;
+}
+
+#ip:hover {
+    opacity: 1;
 }
 
 .about-section {
