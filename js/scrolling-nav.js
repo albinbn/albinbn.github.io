@@ -18,13 +18,9 @@ $(function() {
     });
 });
 
-/*$.getJSON('http://ipinfo.io', function(data){
-  console.log(data)
-})*/
-
-$.get("http://ipinfo.io", function (response) {
-    $("#ip").html("IP: " + response.ip);
-    $("#address").html(response.region);
-    $("#details").html(JSON.stringify(response, null, 4));
-}, "jsonp");
-
+$.getJSON('http://ipinfo.io', function (data) {
+  console.log(data);
+  console.log("YO");
+   $("#ip").append(data.ip); 
+    $("#region").append(data.region);
+})

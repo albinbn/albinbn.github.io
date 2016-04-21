@@ -72,8 +72,41 @@
             <div class="row">
                 <div class="col-lg-12">
                    <h1>Hi there! nice to have you here!</h1>
-<h3> How's the weather in </h3><div id="address"></div><h3>?</h3>
-   
+                    
+                    <div id="ip">      
+                    </div>
+                    <div id="region">
+                    </div>
+
+             
+             
+<!--<div id="address"></div>
+<div id="ip"></div>
+<div id="details"></div>       
+                    -->
+<!--<p id="ipdata"></p>
+<script>
+                        
+const http = require('http')
+
+http.get('http://ipinfo.io', function(res) {
+    document.write(res);
+  console.log(res)
+})
+document.getElementById("ipdata").innerHTML
+obj.region ;   
+</script>
+-->         
+<!--<script>
+    var 
+$.get("http://ipinfo.io", function (response) { 
+    var output="<ul>";
+        for (var i in data.users) {
+            output+="<li>" + data.users[i].ip + " " + data.users[i].country + "</li>";
+    console.log(response.ip, response.country); }, "jsonp");
+-->
+</script>
+                    
 <script>
 var OSName="Unknown OS";
 if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows, love the classics right?";
@@ -83,9 +116,7 @@ if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux, that's cool!";
 
 document.write('I see you using '+OSName);                    
 </script>                    
-   
-
-<div id="ip"></div>
+                   
 <!--<a target="_blank" rel="nofollow" href="http://thegiflibrary.tumblr.com/post/15839368871/bonjour">
                     
                     <img data-original-width="245" data-original-height="136" data-padding-top="157" data-id="vmfAVNcudRYli" data-image_url="https://media.giphy.com/media/vmfAVNcudRYli/giphy.gif" data-bitly_gif_url="http://gph.is/XMiWmS" data-mp4_url="https://media.giphy.com/media/vmfAVNcudRYli/giphy.mp4" data-still="https://media.giphy.com/media/vmfAVNcudRYli/giphy_s.gif" data-preview-image-url="https://media.giphy.com/media/vmfAVNcudRYli/100.gif" data-tumblr_share_url="https://media.giphy.com/media/vmfAVNcudRYli/giphy-tumblr.gif" data-gif_id="vmfAVNcudRYli" data-absolute-url="/gifs/hello-smile-hi-vmfAVNcudRYli" data-edit-url="/gifs/hello-smile-hi-vmfAVNcudRYli/edit" id="gif" class="a-gif" src="https://media.giphy.com/media/vmfAVNcudRYli/giphy.gif" alt="welcome hello hiya smile hi" style="width: 805px; height: 446px" width="805" height="446">
@@ -109,26 +140,28 @@ document.write('I see you using '+OSName);
                         <div class="col-md-6" id="me">
                             <p>
                                 My name is Albin Båtelsson and I'm a Digital Data Strategist student at HYPER ISLAND in stockholm. </br>
-An education where my team skills and strategic/creative mind have been challenged and developed.
+An education where my team skills and strategic/creative mind have been challenged and developed. 
                                 
 <!--I've always loved working in team for a common goal. I strive to create value of people and would love to make the life easier for people around me. And data is my key. I love human behaviour and with data it's possible to get a better overview instead of holding my finger up in the air. We can actually get the facts and the truth. </br> -->
-</br> </br> I should probably mention that I'm a Entrepreneurial, Business savy, Creative, Data-driven Growth hacker . In love with A/B testing, wearables, VR and data-mining. fascinated by Machine-learning, autonomous cars and marketing automation. </br> Becouse I know my SEO (and technology is amazing). </br> </br> Right now I'm in the hunt for an internship and I'm easy to seduce. If you work at a company that's in the top of the line of using data to create beautiful, necessary (or unnecessary) and awesome things. You're the right for me. </br> </br> And if you still questions if I'm the right for you. Let me prove you're wrong. </br> </br>
-
+</br> </br> I should probably mention that I'm a Entrepreneurial, Business savvy, Creative, Data-driven Growth hacker . In love with A/B testing, wearables, VR and data-mining. Fascinated by Machine-learning, autonomous cars and marketing automation. </br> Because I know my SEO (and technology is amazing). </br> </br> 
+Right now I'm in the hunt for an internship and I'm easy to seduce. If you work at a company that's in the top of the line of using data to create beautiful, necessary (or unnecessary) and awesome things. You're the right for me. I want to learn from the best. </br> </br> 
+And if you still questions if I'm the right for you. Let me prove you're wrong.
                             </p>
-                            
-                </div>
-                        <div class="col-md-6" id="me2">
-                            <img src="images/ppick.jpg" class="image" alt="1234" id="ppick">
                             <div class="box" id="funfacts">
-                            <h2>Funfacts</h2>
-                                <p>
-                                <ul style="list-style-type:square">
+                                <h1>Fun facts</h1>
+                                    <p>
+                                        <ul style="list-style-type:square">
                                 <li>I'm certified and educated instructor in skiing and sailing</li>
                                 <li>I'm a DJ and have arranged tons of clubs in STHLM</li>
-                                <li>I've worked as an ID controller buying cigarettes and beer</li>
-                                </ul>
-                                </p>
+                                <li>I've worked as an ID control tester buying cigarettes and beer</li>
+                                        </ul>
+                                    </p>
                             </div>
+                            
+                </div>
+            <div class="col-md-6" id="me2">
+                            <img src="images/ppick.jpg" class="profile" id="ppick">
+            </div>
     </section>
 
     <!-- Services Section -->
@@ -170,7 +203,7 @@ One of my focus areas was to segment users and understand the value of that.</br
 <p> 
 We worked with DDB and got in touch with their client Zoégas. One of the biggest Coffee brands in Sweden. </br>
 Our brief was to make an Always on campaign with Focus on Social Media. </br>
-I focused on creating 10 target groups and exploring how they behaved on social media, trends and how to reach them in the most effective way possible. </br> I had a leading role through this project and my biggest learnings was seeing the possibilities of real digital marketing and the power of segmenting groups of people.
+I focused on creating 10 target groups and exploring how they behaved on social media, trends and how to reach them in the most effective way possible. </br> I had a leading role through this project and my biggest learning was seeing the possibilities of real digital marketing and the power of segmenting groups of people.
 
  </p>
                     </div>
@@ -193,7 +226,7 @@ A short project with focus on visualize the growth of the Swedish municipality H
 We created a website and made the visualization with Javascript. </br>
 In this particular case we used static data stored in a tsv file.
 We could have created an API-call but it wasn't completely suitable for the project when the data points were few and the visualization was for 2015. </br>
-My biggest learnings in this project was working creating graphs with Javascript in D3. I was in the group with one other person so the communication part was smooth.
+My biggest learning in this project was working creating graphs with Javascript in D3. I was in the group with one other person so the communication part was smooth.
   </p>
 </div>       
 </div>
@@ -228,7 +261,7 @@ I did everything from analyzing behavior flow and setting up A/B tests. My bigge
 <p> 
     This was the first web project I ever did. </br>
 We wanted to illustrate the increased housing prices in Stockholm and the segmentation of rich and poor. </br>
-By inputing your downpayment you had you could see where you can afford an apartment. </br>
+By inputting your downpayment you had you could see where you can afford an apartment. </br>
 We used Booli API and Google Maps API to create the Heatmap. My biggest learning was working 
  </p>
             </div>
@@ -262,7 +295,7 @@ We used Booli API and Google Maps API to create the Heatmap. My biggest learning
                 </a>
                     </div>
                         <div class="col-md-6">
-                    <a href="https://se.linkedin.com/in/albinbatelsson"><img src="images/linkdin.png" class="img-responsive" id="linkdin"> </a>
+                    <a href="https://se.linkedin.com/in/albinbatelsson"><img src="images/linkdin.png" target class="img-responsive" id="linkdin"> </a>
                 </div>
                 </div>
                 </div>  
