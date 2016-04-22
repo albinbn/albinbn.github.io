@@ -122,21 +122,21 @@ p {
 
 #shap:hover {
 
-        background-color: fuchsia;
+        background-color: #D91B5B;
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
 
 #zoe:hover {
 
-        background-color: fuchsia;
+        background-color: #0047AB;
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
 
 #hels:hover {
 
-        background-color: fuchsia;
+        background-color: #F83400;
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
@@ -150,7 +150,7 @@ p {
 
 #wor:hover {
 
-        background-color: fuchsia;
+        background-color: #F8E03E;
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
