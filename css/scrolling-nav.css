@@ -64,7 +64,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 #textintro {
-    position: relative;
 }
 
 #region {
@@ -78,6 +77,16 @@ of those sections to manage the look and feel of the site. */
 .h2 {
     font-family: 'gotham-Blit';
     font-size: 10px;
+}
+
+h5 {
+    font-family: 'gotham-Blit';
+    font-size: 15px;
+}
+
+#connection {
+    font-family: 'gotham-Blit';
+    font-size: 15px;
 }
 
 .about-section {
@@ -143,7 +152,7 @@ p {
 
 #fil:hover {
 
-        background-color: fuchsia;
+        background-color: #00E540;
         opacity: 0.9;
         filter:alpha(opacity=50); 
 }
@@ -165,7 +174,7 @@ color:#333333;
 
 
 #shap {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
 }
 
