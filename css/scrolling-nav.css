@@ -60,7 +60,6 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
     font-family: 'gotham-Blit';
     font-size: 30px;
-    position: relative;
 }
 
 #textintro {
@@ -80,6 +79,7 @@ h2 {
 }
 
 h5 {
+    padding-top: 40px;
     font-family: 'gotham-Blit';
     font-size: 15px;
 }
