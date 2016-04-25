@@ -143,14 +143,16 @@ p {
 
         background-color: #D91B5B;
         opacity: 0.9;
-        filter:alpha(opacity=50); 
+        filter:alpha(opacity=50);
+        color: #eee;
 }
 
 #zoe:hover {
 
         background-color: #0047AB;
         opacity: 0.9;
-        filter:alpha(opacity=50); 
+        filter:alpha(opacity=50);
+        color: #eee;
 }
 
 #hels:hover {
@@ -158,6 +160,7 @@ p {
         background-color: #F83400;
         opacity: 0.9;
         filter:alpha(opacity=50); 
+        color: #eee;
 }
 
 #fil:hover {
@@ -165,6 +168,7 @@ p {
         background-color: #00E540;
         opacity: 0.9;
         filter:alpha(opacity=50); 
+        color: #eee;
 }
 
 #wor:hover {
@@ -172,6 +176,7 @@ p {
         background-color: #F8E03E;
         opacity: 0.9;
         filter:alpha(opacity=50); 
+        color: #eee;
 }
 
 
