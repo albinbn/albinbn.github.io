@@ -99,6 +99,7 @@ h5 {
 }
 
 h6 {
+    padding-top: 50px;
     font-family: 'gotham-Blit';
     font-size: 30px;
     text-align: left;
@@ -263,5 +264,5 @@ h3 {
 }
 
 #psst {
-    padding-top: 200px;
+    padding-top: 350px;
 }
