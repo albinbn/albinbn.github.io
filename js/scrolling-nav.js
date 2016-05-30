@@ -65,7 +65,7 @@ $.getJSON('http://ipinfo.io', function (data) {
             xhttp2.send();
         }
         if (xhttp.readyState == 4 && (xhttp.status == 403 || xhttp.status == 500)) {
-            el.innerHTML += 'Oh shit, you seem to hide from me! Good job.';
+            el.innerHTML += 'Oh shit, you seem to hide your location from me! Good job.';
         }
     };
 

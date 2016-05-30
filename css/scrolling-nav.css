@@ -138,10 +138,16 @@ p {
     background: #fff;
 }
 
+#favourit:hover {
+        background-color: #383E42;
+        opacity: 0.9;
+        filter:alpha(opacity=50);
+        color: #eee;
+}
 
 #shap:hover {
 
-        background-color: #D91B5B;
+        background-color: #383E42;
         opacity: 0.9;
         filter:alpha(opacity=50);
         color: #eee;
@@ -149,7 +155,7 @@ p {
 
 #zoe:hover {
 
-        background-color: #0047AB;
+        background-color: #383E42;
         opacity: 0.9;
         filter:alpha(opacity=50);
         color: #eee;
@@ -157,7 +163,7 @@ p {
 
 #hels:hover {
 
-        background-color: #F83400;
+        background-color: #383E42;
         opacity: 0.9;
         filter:alpha(opacity=50); 
         color: #eee;
@@ -165,7 +171,7 @@ p {
 
 #fil:hover {
 
-        background-color: #00E540;
+        background-color: #383E42;
         opacity: 0.9;
         filter:alpha(opacity=50); 
         color: #eee;
@@ -173,7 +179,7 @@ p {
 
 #wor:hover {
 
-        background-color: #F8E03E;
+        background-color: #383E42;
         opacity: 0.9;
         filter:alpha(opacity=50); 
         color: #eee;
@@ -185,6 +191,11 @@ hr {
 height: 10px;
 background-color: #333333;
 color:#333333;
+}
+
+#favourit {
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
@@ -219,6 +230,16 @@ color:#333333;
     padding: 30px;
 }
 
+.favimage{
+    max-width: 400px;
+    max-height: 250px;
+    width: 100%;    
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+
 .simage{
     max-width: 400px;
     max-height: 250px;
@@ -234,6 +255,15 @@ color:#333333;
     width: 100%;    
     padding-top: 50px;
 }
+
+.filimg {
+    max-width: 400px;
+    max-height: 250px;
+    width: 100%;    
+    padding-top: 50px;
+}
+
+
 
 #pj {
     text-align: left;
