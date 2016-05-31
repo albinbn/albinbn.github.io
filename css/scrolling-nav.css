@@ -271,8 +271,8 @@ color:#333333;
 
 .contact-section {
     height: auto;
-    min-height: 100%;
-    padding-top: 50px;
+    /*min-height: 100%;*/
+    padding-top: 20px;
     text-align: center;
     background: #eee;
 }
@@ -286,7 +286,9 @@ color:#333333;
 
 
 #linkdin{
-    max-width: 150px;
+    max-width: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -299,5 +301,5 @@ h3 {
 }
 
 #psst {
-    padding-top: 350px;
+    padding-top: 50px;
 }

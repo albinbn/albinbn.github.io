@@ -7,6 +7,14 @@ $(document).ready(function() {
         
     });
 
+$(document).ready(function() {
+    $("#shap").hover(function() {
+        $('#shapimg').attr('src', 'images/shapy_logga_vit.png');
+            }, function() {
+     $('#shapimg').attr('src', 'images/shapy_logga_sv.png');
+    });
+        
+    });
 
 $(document).ready(function() {
     console.log("pinkdick");
