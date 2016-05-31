@@ -11,7 +11,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     console.log("pinkdick");
     $("#zoe").hover(function() {
-        $('#zimageid').attr('src', 'images/zoega_vit.png');
+        $('#zimageid').attr('src', 'images/Zoega_vit.png');
             }, function() {
      $('#zimageid').attr('src', 'images/Zoe%C2%A6%C3%BCgas_logo_black.png');
     });
@@ -22,14 +22,14 @@ $(document).ready(function() {
     $("#hels").hover(function() {
         $('#helsimg').attr('src', 'images/helsingbäst_vit.png');
             }, function() {
-     $('#helsimg').attr('src', 'images/helsingbäst_svart.png');
+     $('#helsimg').attr('src', 'images/Helsingbäst_svart.png');
     });
         
     });
 
 $(document).ready(function() {
     $("#fil").hover(function() {
-        $('#filimg').attr('src', 'images/filippa_vit3.png');
+        $('#filimg').attr('src', 'images/Filippa_vit3.png');
             }, function() {
      $('#filimg').attr('src', 'images/Filippa_svart.png');
     });
