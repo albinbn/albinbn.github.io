@@ -119,16 +119,22 @@ p {
     padding-top: 30px;
 }
 
+#funfacts {
+    padding-top: 30px;
+}
+
 #ppick {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #me2 {
     text-align: left;
+    padding-bottom: 30px;
 }
 
 .services-section {
